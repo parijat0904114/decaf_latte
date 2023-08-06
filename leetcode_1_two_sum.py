@@ -8,7 +8,9 @@ class Solution(object):
         num_dict = {}
         for i, n in enumerate(nums):
             if target - n in num_dict:
-                return [num_dict[target-n], i]
+                return [num_dict[target - n], i]
             num_dict[n] = i
-s = Solution()
-print(s.twoSum([3, 2, 4], 6))
+
+
+# s = Solution()
+# print(s.twoSum([3, 2, 4], 6))
