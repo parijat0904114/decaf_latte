@@ -1,7 +1,9 @@
-name: Comment on issue
+name: Comment on issue or PR
 
 on:
   issues:
+    types: [labeled]
+  pull_request_target:
     types: [labeled]
 
 jobs:
@@ -17,5 +19,6 @@ jobs:
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
-            body: "Thanks for your Thumbs Up :+1! I appreciate it"
+            body: "Thanks for your Thumbs Up :+1:! I appreciate it"
           });
+
