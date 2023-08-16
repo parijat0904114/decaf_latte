@@ -36,7 +36,6 @@ jobs:
 
     - name: Create Pull Request
       run: |
-        gh auth login --with-token <${{ secrets.GITHUB_TOKEN }}
+        echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
         git push origin HEAD:black-changes
         gh pr create --base main --head black-changes --title "Apply Black formatting" --body "Automated formatting changes" --repo ${{ github.repository }}
-
