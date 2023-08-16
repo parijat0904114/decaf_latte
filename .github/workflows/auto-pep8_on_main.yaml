@@ -39,4 +39,5 @@ jobs:
         git push origin HEAD:formatting-changes
         gh pr create --base main --head formatting-changes --title "Apply autopep8 formatting" --body "Automated formatting changes" --repo ${{ github.repository }}
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MY_GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
