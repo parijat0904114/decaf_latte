@@ -19,6 +19,24 @@ jobs:
         python -m pip install --upgrade pip
         pip install black
 
-    - name: Check code with Black
+    - name: Format code with Black
       run: |
-        black --check .
+        black .
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -u
+        git diff --quiet && git diff --staged --quiet || git commit -m "Apply Black formatting"
+
+    - name: Push changes
+      run: |
+        git push
+
+    - name: Create Pull Request
+      run: |
+        gh auth login --with-token <${{ secrets.GITHUB_TOKEN }}
+        git push origin HEAD:black-changes
+        gh pr create --base main --head black-changes --title "Apply Black formatting" --body "Automated formatting changes" --repo ${{ github.repository }}
+
