@@ -18,7 +18,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 9 | Linked List Cycle | [Solution](./leetcode_141_linked_list_cycle.py) | | |
 | 10 | Best Time to Buy and Sell Stock | [Solution](./leetcode_121_best_time_to_buy_and_sell_stock) | | |
 | 11 | Balanced Binary Tree | [Solution](./leetcode_110_balanced_binary_tree) | | |
-| 12 | Implement Queue using Stacks | [Solution](./leetcode_232_implement_queue_using_stacks) | | |
+| 12 | Implement Queue using Stacks | [Solution](./leetcode_232_implement_queue_using_stacks.py) | | |
 
 ## Analysis
 
