@@ -20,6 +20,8 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 11 | Balanced Binary Tree | [Solution](./leetcode_110_balanced_binary_tree.py) | | |
 | 12 | Implement Queue using Stacks | [Solution](./leetcode_232_implement_queue_using_stacks.py) | | |
 | 13 | First Bad Version | [Solution](./leetcode_278_first_bad_version.py) | | |
+| 14 | Climbing Stairs | [Solution](./leetcode_70_climbing_stairs.py) | | |
+| 15 | Ransome Note | [Solution](./leetcode_383_ransome_note.py) | | |
 
 ## Analysis
 
