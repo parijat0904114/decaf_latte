@@ -22,6 +22,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 13 | First Bad Version | [Solution](./leetcode_278_first_bad_version.py) | | |
 | 14 | Climbing Stairs | [Solution](./leetcode_70_climbing_stairs.py) | | |
 | 15 | Ransome Note | [Solution](./leetcode_383_ransome_note.py) | | |
+| 16 | Add Binary | [Solution](./leetcode_67_add_binary.py | | |
 
 ## Analysis
 
