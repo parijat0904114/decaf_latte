@@ -24,6 +24,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 15 | Ransome Note | [Solution](./leetcode_383_ransome_note.py) | | |
 | 16 | Add Binary | [Solution](./leetcode_67_add_binary.py) | | |
 | 17 | Contains Duplicate | [Solution](./leetcode_217_contains_duplicate.py) | | |
+| 18 | Reverse Linked List | [Solution](./leetcode_206_reverse_linked_list.py) | | |
 
 ## Analysis
 
