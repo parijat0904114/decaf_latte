@@ -26,6 +26,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 17 | Contains Duplicate | [Solution](./leetcode_217_contains_duplicate.py) | | |
 | 18 | Reverse Linked List | [Solution](./leetcode_206_reverse_linked_list.py) | | |
 | 19 | Longest Palindrome | [Solution](./leetcode_409_longest_palindrome.py) | | |
+| 20 | Middle of the Linked List | [Solution](./leetcode_876_middle_of_the_linked_list.py) | | |
 
 ## Analysis
 
