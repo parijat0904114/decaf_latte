@@ -30,6 +30,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 21 | Majority Element | [Solution](./leetcode_169_majority_element.py) | | |
 | 22 | Maximum Depth of Binary Tree | [Solution](./leetcode_104_maximum_depth_of_binary_tree.py) | | |
 | 23 | Maximum Subarray | [Solution](./leetcode_53_maximum_subarray.py) | | |
+| 24 | 3Sum | [Solution](./leetcode_15_3sum.py) | | |
 
 ## Analysis
 
