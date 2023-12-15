@@ -43,7 +43,7 @@ The time complexity of each solution is analyzed and documented in the table abo
 The space complexity of each solution is analyzed and documented in the table above. The notation used for space complexity is Big O notation.
 
 # Git Documentation
-[Link](./Git_Documents)
+[Link](./Git_Documentation)
 
 ## Contributing
 Constructive criticism is welcome. I would appreciate your comments, feedback, and any other suggestions you may have.
