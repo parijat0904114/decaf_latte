@@ -8,29 +8,29 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | # | Title | Solution | Time Complexity | Space Complexity |
 | --- | --- | --- | --- | --- |
 | 1 | Two Sum | [Solution](./GRIND_75/leetcode_1_two_sum.py) | _O(n)_ | _O(n)_ |
-| 2 | Valid Parentheses | [Solution](./leetcode_20_valid_parentheses.py) | | |
-| 3 | Merge Two Sorted Lists | [Solution](./leetcode_21_merge_two_sorted_lists.py) | | |
-| 4 | Valid Palindrome | [Solution](./leetcode_125_valid_palindrome.py) | | |
-| 5 | Invert Binary Tree | [Solution](./leetcode_226_invert_binary_tree.py) | | |
-| 6 | Valid Anagram | [Solution](./leetcode_242_valid_anagram.py) | | |
-| 7 | Binary Search | [Solution](./leetcode_704_binary_search.py) | | |
-| 8 | Flood Fill | [Solution](./leetcode_733_flood_fill.py) | | |
-| 9 | Linked List Cycle | [Solution](./leetcode_141_linked_list_cycle.py) | | |
-| 10 | Best Time to Buy and Sell Stock | [Solution](./leetcode_121_best_time_to_buy_and_sell_stock.py) | | |
-| 11 | Balanced Binary Tree | [Solution](./leetcode_110_balanced_binary_tree.py) | | |
-| 12 | Implement Queue using Stacks | [Solution](./leetcode_232_implement_queue_using_stacks.py) | | |
-| 13 | First Bad Version | [Solution](./leetcode_278_first_bad_version.py) | | |
-| 14 | Climbing Stairs | [Solution](./leetcode_70_climbing_stairs.py) | | |
-| 15 | Ransome Note | [Solution](./leetcode_383_ransome_note.py) | | |
-| 16 | Add Binary | [Solution](./leetcode_67_add_binary.py) | | |
-| 17 | Contains Duplicate | [Solution](./leetcode_217_contains_duplicate.py) | | |
-| 18 | Reverse Linked List | [Solution](./leetcode_206_reverse_linked_list.py) | | |
-| 19 | Longest Palindrome | [Solution](./leetcode_409_longest_palindrome.py) | | |
-| 20 | Middle of the Linked List | [Solution](./leetcode_876_middle_of_the_linked_list.py) | | |
-| 21 | Majority Element | [Solution](./leetcode_169_majority_element.py) | | |
-| 22 | Maximum Depth of Binary Tree | [Solution](./leetcode_104_maximum_depth_of_binary_tree.py) | | |
-| 23 | Maximum Subarray | [Solution](./leetcode_53_maximum_subarray.py) | | |
-| 24 | 3Sum | [Solution](./leetcode_15_3sum.py) | | |
+| 2 | Valid Parentheses | [Solution](./GRIND_75/leetcode_20_valid_parentheses.py) | | |
+| 3 | Merge Two Sorted Lists | [Solution](./GRIND_75/leetcode_21_merge_two_sorted_lists.py) | | |
+| 4 | Valid Palindrome | [Solution](./GRIND_75/leetcode_125_valid_palindrome.py) | | |
+| 5 | Invert Binary Tree | [Solution](./GRIND_75/leetcode_226_invert_binary_tree.py) | | |
+| 6 | Valid Anagram | [Solution](./GRIND_75/leetcode_242_valid_anagram.py) | | |
+| 7 | Binary Search | [Solution](./GRIND_75/leetcode_704_binary_search.py) | | |
+| 8 | Flood Fill | [Solution](./GRIND_75/leetcode_733_flood_fill.py) | | |
+| 9 | Linked List Cycle | [Solution](./GRIND_75/leetcode_141_linked_list_cycle.py) | | |
+| 10 | Best Time to Buy and Sell Stock | [Solution](./GRIND_75/leetcode_121_best_time_to_buy_and_sell_stock.py) | | |
+| 11 | Balanced Binary Tree | [Solution](./GRIND_75/leetcode_110_balanced_binary_tree.py) | | |
+| 12 | Implement Queue using Stacks | [Solution](./GRIND_75/leetcode_232_implement_queue_using_stacks.py) | | |
+| 13 | First Bad Version | [Solution](./GRIND_75/leetcode_278_first_bad_version.py) | | |
+| 14 | Climbing Stairs | [Solution](./GRIND_75/leetcode_70_climbing_stairs.py) | | |
+| 15 | Ransome Note | [Solution](./GRIND_75/leetcode_383_ransome_note.py) | | |
+| 16 | Add Binary | [Solution](./GRIND_75/leetcode_67_add_binary.py) | | |
+| 17 | Contains Duplicate | [Solution](./GRIND_75/leetcode_217_contains_duplicate.py) | | |
+| 18 | Reverse Linked List | [Solution](./GRIND_75/leetcode_206_reverse_linked_list.py) | | |
+| 19 | Longest Palindrome | [Solution](./GRIND_75/leetcode_409_longest_palindrome.py) | | |
+| 20 | Middle of the Linked List | [Solution](./GRIND_75/leetcode_876_middle_of_the_linked_list.py) | | |
+| 21 | Majority Element | [Solution](./GRIND_75/leetcode_169_majority_element.py) | | |
+| 22 | Maximum Depth of Binary Tree | [Solution](./GRIND_75/leetcode_104_maximum_depth_of_binary_tree.py) | | |
+| 23 | Maximum Subarray | [Solution](./GRIND_75/leetcode_53_maximum_subarray.py) | | |
+| 24 | 3Sum | [Solution](./GRIND_75/leetcode_15_3sum.py) | | |
 
 ## Analysis
 
