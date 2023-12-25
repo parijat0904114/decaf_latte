@@ -45,7 +45,7 @@ The space complexity of each solution is analyzed and documented in the table ab
 # A tale of GIT
 [Link](./Git_Documentation)
 
-# Powerful action verbs for a resume
+# Powerful Action Verbs for a Resume
 Harvard action verbs are a curated list of powerful, descriptive verbs often recommended by career advisors and resume experts. These verbs are specifically chosen to help job seekers articulate their accomplishments and skills more effectively and vividly on their resumes and in interviews. By using these action verbs, individuals can present their experiences and achievements in a dynamic and impactful way, making it easier for employers to recognize their potential value and contributions to a role or organization. This approach aids in creating a more engaging and persuasive narrative about one's professional journey. You will find the action verbs in the following link.
 [Action Verbs](https://www.alumni.hbs.edu/Documents/careers/ActionVerbsList.pdf)
 
