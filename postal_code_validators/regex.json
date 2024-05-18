@@ -1,0 +1,14 @@
+[
+    {
+        "country": "Bangladesh",
+        "pattern": "^[0-9]{4}$"
+    },
+    {
+        "country": "Canada",
+        "pattern": "^[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ][ ][0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]$"
+    },
+    {
+        "country": "USA",
+        "pattern": "^[0-9]{5}(-[0-9]{4})?$"
+    }
+]
