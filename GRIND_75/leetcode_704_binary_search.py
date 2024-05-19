@@ -12,9 +12,9 @@ class Solution(object):
             if nums[mid] == target:
                 return mid
             elif nums[mid] > target:
-                high -= 1
+                high = mid - 1
             else:
-                low += 1
+                low = mid + 1
         return -1
 
 
