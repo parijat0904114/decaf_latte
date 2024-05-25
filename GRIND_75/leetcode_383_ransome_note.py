@@ -19,7 +19,6 @@ class Solution(object):
             else:
                 hash2[r] += 1
 
-        print(hash1, hash2)
         for key in hash2:
             if key not in hash1:
                 return False
