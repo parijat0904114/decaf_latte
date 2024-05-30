@@ -12,6 +12,6 @@ class Solution(object):
         return max_global
 
 
-# obj = Solution()
-# result = obj.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])
-# print(result)
+obj = Solution()
+result = obj.maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4])
+print(result)
