@@ -17,11 +17,12 @@ def canadian_postal_code_validator(postal_code):
     return True if re.match(pattern, str.upper(postal_code)) else False
     
     
-print(canadian_postal_code_validator("A1A2A2"))
-print(canadian_postal_code_validator("A1A 2A2"))
-print(canadian_postal_code_validator("W1A 2A2"))
-print(canadian_postal_code_validator("A12 2A2"))
-print(canadian_postal_code_validator("A1D 2A2"))
-print(canadian_postal_code_validator("A1B 2U2"))
-print(canadian_postal_code_validator("T2R 0J6"))
-print(canadian_postal_code_validator("t1k 3v8"))
+# print(canadian_postal_code_validator("A1A2A2"))
+# print(canadian_postal_code_validator("A1A 2A2"))
+# print(canadian_postal_code_validator("W1A 2A2"))
+# print(canadian_postal_code_validator("A12 2A2"))
+# print(canadian_postal_code_validator("A1D 2A2"))
+# print(canadian_postal_code_validator("A1B 2U2"))
+# print(canadian_postal_code_validator("T2R 0J6"))
+# print(canadian_postal_code_validator("t1k 3v8"))
+
