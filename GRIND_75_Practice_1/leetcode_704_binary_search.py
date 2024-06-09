@@ -10,12 +10,12 @@ class Solution(object):
         
         while(low<=high):
             mid = (low + high)//2
-            if nums[mid] == target:
-                return mid
-            elif nums[mid] > target:
+            if nums[mid] > target:
                 high = mid - 1
-            else:
+            elif nums[mid] < target:
                 low = mid + 1
+            else:
+                return mid
         return -1
 
 # s = Solution()
