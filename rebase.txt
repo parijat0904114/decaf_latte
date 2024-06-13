@@ -1,0 +1,1 @@
+A random file that is of no use other than generating a commit hash.
