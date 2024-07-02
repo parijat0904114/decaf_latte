@@ -22,13 +22,13 @@ class Solution(object):
             ):
                 return
             image[sr][sc] = color
-            dfs(sr-1, sc)
-            dfs(sr+1, sc)
-            dfs(sr, sc-1)
-            dfs(sr, sc+1)
+            dfs(sr-1, sc-1)
+            dfs(sr-1, sc+1)
+            dfs(sr+1, sc-1)
+            dfs(sr+1, sc+1)
             
         dfs(sr, sc)
         return image
 
-# s = Solution()
-# print(s.floodFill([[1,1,1],[1,1,0],[1,0,1]], 1, 1, 2))
+s = Solution()
+print(s.floodFill([[1,1,1],[1,1,0],[1,0,1]], 1, 1, 2))
