@@ -14,16 +14,17 @@ n7 = Node(7)
 n8 = Node(8)
 
 n1.children = [n2, n3]
-n3.children = [n4, n5]
-n4.children = [n6, n7, n8]
+n3.children = [n4, n5, n6]
+n6.children = [n7, n8]
+# n6.children = [n7, n8, n1] # example for a cycle detection.
 
 traversal_list = []
 def dfs(node):
     if node.visited:
+        print('cycle detected') # 
         return
     traversal_list.append(node.value)
     node.visited = True
-
     for child in node.children:
         dfs(child)        
 
