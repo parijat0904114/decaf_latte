@@ -21,7 +21,7 @@ class Solution(object):
                 low = mid + 1
         return low
 
-#Returning either `low` or `high` is sufficient to display the
+# Returning either `low` or `high` is sufficient to display the
 # correct answer. However, returning `mid` wouldn't work.
 # As you can see, we increase the value of `low` by adding one
 # to the value of `mid`. So if a calculated `mid` value is 3,
