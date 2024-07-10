@@ -20,16 +20,20 @@ class Solution(object):
         else:
             return root
 
-# t1 = TreeNode(6)
-# t2 = TreeNode(2)
-# t3 = TreeNode(8)
-# t4 = TreeNode(4)
-# t1.left = t2
-# t1.right = t3
-# t2.right = t4
+t1 = TreeNode(6)
+t2 = TreeNode(2)
+t3 = TreeNode(8)
+t4 = TreeNode(4)
+t5 = TreeNode(3)
+t6 = TreeNode(5)
+t1.left = t2
+t1.right = t3
+t2.right = t4
+t4.left = t5
+t4.right = t6
 
-# s = Solution()
-# print(s.lowestCommonAncestor(t1,t2,t3))
 
-# s2 = Solution()
-# print(s.lowestCommonAncestor(t2, t2, t4))
+s = Solution()
+print(s.lowestCommonAncestor(t1,t2,t3))
+print(s.lowestCommonAncestor(t2, t2, t4))
+print(s.lowestCommonAncestor(t1, t5, t6))
