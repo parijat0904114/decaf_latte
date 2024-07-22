@@ -17,13 +17,7 @@ class Solution(object):
         """
         if root is None:
             return 0
-        if root.left:
-            left_diameter = 1 + self.diameterOfBinaryTree(root.left)
-        if root.right:
-            right_diameter = 1 + self.diameterOfBinaryTree(root.right)
-        if left_diameter + right_diameter > self.max_diameter:
-            self.max_diameter = left_diameter + right_diameter
-        return self.max_diameter       
+      
 
 
 root = TreeNode(1)
