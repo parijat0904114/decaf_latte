@@ -15,7 +15,6 @@ class Solution(object):
 
             # using two pointer method
             left, right = i + 1, n - 1
-            print(left, right)
             while left < right:
                 total = nums[i] + nums[left] + nums[right]
                 if total < 0:
