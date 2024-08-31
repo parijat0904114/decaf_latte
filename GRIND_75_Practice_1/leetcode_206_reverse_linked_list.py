@@ -20,7 +20,7 @@ class Solution(object):
             head.next = prev
             prev = head
             head = tmp
-        return prev.val
+        return prev
 
 l1 = ListNode(1)
 l2 = ListNode(2)

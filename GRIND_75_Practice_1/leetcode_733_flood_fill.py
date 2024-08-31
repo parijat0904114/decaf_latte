@@ -7,27 +7,24 @@ class Solution(object):
         :type color: int
         :rtype: List[List[int]]
         """
-        if not image:
+        if not image or image[sr][sc]==color:
             return image
-        if image[sr][sc] == color:
-            return image
-        color_before = image[sr][sc]
+        previous_color = image[sr][sc]
+    
         def dfs(sr, sc):
-            if(
-                sr<0 or
-                sc<0 or
+            if (sr<0 or sc<0 or
                 sr>=len(image) or
                 sc>=len(image[0]) or
-             image[sr][sc] != color_before
-            ):
+                image[sr][sc]!=previous_color):
                 return
             image[sr][sc] = color
-            dfs(sr-1, sc)
-            dfs(sr+1, sc)
-            dfs(sr, sc-1)
-            dfs(sr, sc+1)
-            
+            dfs(sr + 1, sc)
+            dfs(sr - 1, sc)
+            dfs(sr, sc + 1)
+            dfs(sr, sc - 1)
         dfs(sr, sc)
         return image
-# s = Solution()
-# print(s.floodFill([[1,1,1],[1,1,0],[1,0,1]], 1, 1, 2))
+
+s = Solution()
+print(s.floodFill([[1,1,1],[1,1,0],[1,0,1]], 1, 1, 2))
+

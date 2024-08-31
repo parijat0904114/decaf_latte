@@ -5,7 +5,8 @@ class Solution(object):
         :rtype: int
         """
         seen = {}
-        left = st = 0
+        left = 0
+        # st = 0
         output = 0
         # Uncomment iff we want to see the sequence.
         for right, ch in enumerate(s):
