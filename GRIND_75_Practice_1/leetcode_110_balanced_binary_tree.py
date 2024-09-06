@@ -25,7 +25,7 @@ class Solution(object):
 
             if abs(left_height - right_height) > 1:
                 self.isBalanced = False
-                return 0
+
             # height is considered maximum_depth for each node.
             return 1 + max(left_height, right_height)
 
