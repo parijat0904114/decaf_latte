@@ -10,7 +10,8 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
-        low = 0
+
+        low = 1
         high = n
 
         while(low<high):
