@@ -12,6 +12,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 3 | https://leetcode.com/problems/merge-two-sorted-lists/description/ |Merge Two Sorted Lists | [Solution](./GRIND_75_Practice_1/leetcode_21_merge_two_sorted_lists.py) | _O(m+n), m=len(list1) n=len(list2)_ | _O(1)_ |
 | 4 | https://leetcode.com/problems/valid-palindrome/description/ | Valid Palindrome | [Solution](./GRIND_75_Practice_1/leetcode_125_valid_palindrome.py) | _O(len(s))_ | _O(1)_ |
 | 5 | https://leetcode.com/problems/linked-list-cycle/description/ | Linked List Cycle | [Solution](./GRIND_75_Practice_1/leetcode_141_linked_list_cycle.py) | _O(n)_ | _O(1)_ |
+| 6 | https://leetcode.com/problems/middle-of-the-linked-list/description/| Middle of the Linked List | [Solution](./GRIND_75_Practice_1/leetcode_876_middle_of_the_linked_list.py) | _O(n)_ | _O(1)_ |
 
 
 ## Analysis
