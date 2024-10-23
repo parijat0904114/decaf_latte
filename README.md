@@ -11,26 +11,8 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 2 | https://leetcode.com/problems/valid-parentheses/description/ |Valid Parentheses | [Solution](./GRIND_75_Practice_1/leetcode_20_valid_parentheses.py) | _O(len(s)_ | _O(len(s)_ |
 | 3 | https://leetcode.com/problems/merge-two-sorted-lists/description/ |Merge Two Sorted Lists | [Solution](./GRIND_75_Practice_1/leetcode_21_merge_two_sorted_lists.py) | _O(m+n), m=len(list1) n=len(list2)_ | _O(1)_ |
 | 4 | https://leetcode.com/problems/valid-palindrome/description/ | Valid Palindrome | [Solution](./GRIND_75_Practice_1/leetcode_125_valid_palindrome.py) | _O(len(s))_ | _O(1)_ |
-| 5 | Invert Binary Tree | [Solution](./GRIND_75/leetcode_226_invert_binary_tree.py) | | |
-| 6 | Valid Anagram | [Solution](./GRIND_75/leetcode_242_valid_anagram.py) | | |
-| 7 | Binary Search | [Solution](./GRIND_75/leetcode_704_binary_search.py) | | |
-| 8 | Flood Fill | [Solution](./GRIND_75/leetcode_733_flood_fill.py) | | |
-| 9 | Linked List Cycle | [Solution](./GRIND_75/leetcode_141_linked_list_cycle.py) | | |
-| 10 | Best Time to Buy and Sell Stock | [Solution](./GRIND_75/leetcode_121_best_time_to_buy_and_sell_stock.py) | | |
-| 11 | Balanced Binary Tree | [Solution](./GRIND_75/leetcode_110_balanced_binary_tree.py) | | |
-| 12 | Implement Queue using Stacks | [Solution](./GRIND_75/leetcode_232_implement_queue_using_stacks.py) | | |
-| 13 | First Bad Version | [Solution](./GRIND_75/leetcode_278_first_bad_version.py) | | |
-| 14 | Climbing Stairs | [Solution](./GRIND_75/leetcode_70_climbing_stairs.py) | | |
-| 15 | Ransome Note | [Solution](./GRIND_75/leetcode_383_ransome_note.py) | | |
-| 16 | Add Binary | [Solution](./GRIND_75/leetcode_67_add_binary.py) | | |
-| 17 | Contains Duplicate | [Solution](./GRIND_75/leetcode_217_contains_duplicate.py) | | |
-| 18 | Reverse Linked List | [Solution](./GRIND_75/leetcode_206_reverse_linked_list.py) | | |
-| 19 | Longest Palindrome | [Solution](./GRIND_75/leetcode_409_longest_palindrome.py) | | |
-| 20 | Middle of the Linked List | [Solution](./GRIND_75/leetcode_876_middle_of_the_linked_list.py) | | |
-| 21 | Majority Element | [Solution](./GRIND_75/leetcode_169_majority_element.py) | | |
-| 22 | Maximum Depth of Binary Tree | [Solution](./GRIND_75/leetcode_104_maximum_depth_of_binary_tree.py) | | |
-| 23 | Maximum Subarray | [Solution](./GRIND_75/leetcode_53_maximum_subarray.py) | | |
-| 24 | 3Sum | [Solution](./GRIND_75/leetcode_15_3sum.py) | | |
+| 5 | https://leetcode.com/problems/linked-list-cycle/description/ | Linked List Cycle | [Solution](./GRIND_75_Practice_1/leetcode_141_linked_list_cycle.py) | _O(n)_ | _O(1)_ |
+
 
 ## Analysis
 
