@@ -7,7 +7,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 
 | # | Title | Solution | Time Complexity | Space Complexity |
 | --- | --- | --- | --- | --- |
-| 1 | Two Sum | [Solution](./GRIND_75/leetcode_1_two_sum.py) | _O(n)_ | _O(n)_ |
+| 1 | Two Sum | [Solution](./GRIND_75_Practice_1/leetcode_1_two_sum.py) | _O(n)_ | _O(n)_ |
 | 2 | Valid Parentheses | [Solution](./GRIND_75/leetcode_20_valid_parentheses.py) | | |
 | 3 | Merge Two Sorted Lists | [Solution](./GRIND_75/leetcode_21_merge_two_sorted_lists.py) | | |
 | 4 | Valid Palindrome | [Solution](./GRIND_75/leetcode_125_valid_palindrome.py) | | |
