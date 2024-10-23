@@ -16,7 +16,7 @@ class Solution(object):
 
         slow_pointer = fast_pointer = head
 
-        while (fast_pointer.next and fast_pointer.next.next):
+        while (fast_pointer and fast_pointer.next):
             slow_pointer = slow_pointer.next
             fast_pointer = fast_pointer.next.next
             if slow_pointer == fast_pointer:

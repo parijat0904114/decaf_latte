@@ -14,13 +14,11 @@ class Solution(object):
         :rtype: ListNode
         """
         fast_ptr = slow_ptr = head
-        while (fast_ptr.next and fast_ptr.next.next):
+        while (fast_ptr and fast_ptr.next):
             fast_ptr = fast_ptr.next.next
             slow_ptr = slow_ptr.next
-        if fast_ptr.next:
-            return slow_ptr.next
-        else:
-            return slow_ptr
+        return slow_ptr
+
 
 l1 = ListNode(1)
 l2 = ListNode(2)
