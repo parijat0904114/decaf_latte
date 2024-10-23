@@ -20,7 +20,7 @@ class Solution(object):
         # restore the head.
 
         runner = list3
-        while (list1 and list2) is not None:
+        while (list1 and list2):
             if list1.val < list2.val:
                 runner.next = list1
                 list1 = list1.next
