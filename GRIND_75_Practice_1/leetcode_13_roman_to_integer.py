@@ -8,7 +8,6 @@ class Solution(object):
                          'L': 50, 'C': 100, 'D': 500, 'M': 1000}
         i = 0
         for r in range(len(s)):
-            print(r)
             i += roman_int_map[s[r]]
             if r < len(s)-1:
                 if s[r] == 'I' and s[r+1] in ['V', 'X']:
