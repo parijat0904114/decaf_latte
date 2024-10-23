@@ -5,12 +5,12 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 
 ## Problem List
 
-| # | Title | Solution | Time Complexity | Space Complexity |
-| --- | --- | --- | --- | --- |
-| 1 | Two Sum | [Solution](./GRIND_75_Practice_1/leetcode_1_two_sum.py) | _O(n)_ | _O(n)_ |
-| 2 | Valid Parentheses | [Solution](./GRIND_75/leetcode_20_valid_parentheses.py) | | |
-| 3 | Merge Two Sorted Lists | [Solution](./GRIND_75/leetcode_21_merge_two_sorted_lists.py) | | |
-| 4 | Valid Palindrome | [Solution](./GRIND_75/leetcode_125_valid_palindrome.py) | | |
+| # | Leetcode | Title | Solution | Time Complexity | Space Complexity |
+| --- | --- | --- | --- | --- | --- |
+| 1 | https://leetcode.com/problems/two-sum/description/ |Two Sum | [Solution](./GRIND_75_Practice_1/leetcode_1_two_sum.py) | _O(n)_ | _O(n)_ |
+| 2 | https://leetcode.com/problems/valid-parentheses/description/ |Valid Parentheses | [Solution](./GRIND_75_Practice_1/leetcode_20_valid_parentheses.py) | _O(len(s)_ | _O(len(s)_ |
+| 3 | https://leetcode.com/problems/merge-two-sorted-lists/description/ |Merge Two Sorted Lists | [Solution](./GRIND_75_Practice_1/leetcode_21_merge_two_sorted_lists.py) | _O(m+n), m=len(list1) n=len(list2)_ | _O(1)_ |
+| 4 | https://leetcode.com/problems/valid-palindrome/description/ | Valid Palindrome | [Solution](./GRIND_75_Practice_1/leetcode_125_valid_palindrome.py) | _O(len(s))_ | _O(1)_ |
 | 5 | Invert Binary Tree | [Solution](./GRIND_75/leetcode_226_invert_binary_tree.py) | | |
 | 6 | Valid Anagram | [Solution](./GRIND_75/leetcode_242_valid_anagram.py) | | |
 | 7 | Binary Search | [Solution](./GRIND_75/leetcode_704_binary_search.py) | | |
