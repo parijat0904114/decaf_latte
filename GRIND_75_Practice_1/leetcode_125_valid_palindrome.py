@@ -1,18 +1,25 @@
-import re
 class Solution(object):
     def isPalindrome(self, s):
         """
         :type s: str
         :rtype: bool
         """
-        s = re.sub(r'[^a-zA-Z0-9]', '', s).lower()
-        length = len(s)
-        for i in range(length//2):
-            if s[i] != s[length - i - 1]:
+        # using two pointer method for improved space complexity.
+
+        left, right = 0, len(s) - 1
+
+        while left < right:
+            while left < right and not s[left].isalnum():
+                left += 1
+            while left < right and not s[right].isalnum():
+                right -= 1
+            if s[left].lower() != s[right].lower():
                 return False
+            left += 1
+            right -= 1
         return True
-        
-        
-# x = Solution()
-# print(x.isPalindrome("A man, a plan, a canal: Panama"))
-# print(x.isPalindrome(" "))
+
+
+x = Solution()
+print(x.isPalindrome("A man, a plan, a canal: Panama"))
+print(x.isPalindrome(" "))
