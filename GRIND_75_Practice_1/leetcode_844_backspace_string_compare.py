@@ -8,8 +8,8 @@ class Solution(object):
         stack_1 = []
         stack_2 = []
 
-        def string_formatter(str, stack):
-            for st in str:
+        def string_formatter(stri, stack):
+            for st in stri:
                 if st == "#":
                     if stack:
                         stack.pop()
