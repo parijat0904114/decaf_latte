@@ -12,7 +12,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 3 | Merge Two Sorted Lists | [Solution](./GRIND_75_Practice_1/leetcode_21_merge_two_sorted_lists.py) | _O(m+n), m=len(list1), n= len(list2)_ | _O(1)_ |
 | 4 | Valid Palindrome | [Solution](./GRIND_75_Practice_1/leetcode_125_valid_palindrome.py) | _O(len(s)_ | _O(1)_ |
 | 5 | Invert Binary Tree | [Solution](./GRIND_75_Practice_1/leetcode_226_invert_binary_tree.py) | _O(n)_ | _O(1)_ |
-| 6 | Valid Anagram | [Solution](./GRIND_75/leetcode_242_valid_anagram.py) | | |
+| 6 | Valid Anagram | [Solution](./GRIND_75_Practice_1/leetcode_242_valid_anagram.py) | _O(n), n=len(s)=len(t)_ | _O(k), k=unique characters in s_|
 | 7 | Binary Search | [Solution](./GRIND_75/leetcode_704_binary_search.py) | | |
 | 8 | Flood Fill | [Solution](./GRIND_75/leetcode_733_flood_fill.py) | | |
 | 9 | Linked List Cycle | [Solution](./GRIND_75/leetcode_141_linked_list_cycle.py) | | |
