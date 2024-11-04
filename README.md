@@ -15,7 +15,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 6 | Valid Anagram | [Solution](./GRIND_75_Practice_1/leetcode_242_valid_anagram.py) | _O(n), n=len(s)=len(t)_ | _O(k), k=unique characters in s_|
 | 7 | Binary Search | [Solution](./GRIND_75_Practice_1/leetcode_704_binary_search.py) | _O(logN)_ | _O(1)_ |
 | 8 | Flood Fill | [Solution](./GRIND_75_Practice_1/leetcode_733_flood_fill.py) | _O(mxn)_ | _O(mxn)_ |
-| 9 | Linked List Cycle | [Solution](./GRIND_75_Practice_1/leetcode_141_linked_list_cycle.py) | | |
+| 9 | Linked List Cycle | [Solution](./GRIND_75_Practice_1/leetcode_141_linked_list_cycle.py) | _O(N)_ | _O(1)_ |
 | 10 | Best Time to Buy and Sell Stock | [Solution](./GRIND_75_Practice_1/leetcode_121_best_time_to_buy_and_sell_stock.py) | _O(N)_ | _O(1)_ |
 | 11 | Balanced Binary Tree | [Solution](./GRIND_75/leetcode_110_balanced_binary_tree.py) | | |
 | 12 | Implement Queue using Stacks | [Solution](./GRIND_75/leetcode_232_implement_queue_using_stacks.py) | | |
