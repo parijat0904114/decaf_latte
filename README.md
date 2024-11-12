@@ -6,7 +6,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 ## Problem List
 
 | # | Title | Solution | S1 | S2| S3|
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | 1 | Two Sum | [Solution](./GRIND_75/leetcode_1_two_sum.py) | T: _O(n^2)_ S: _O(1)_ | T: _O(n)_ S: _O(n)_ |
 
 
