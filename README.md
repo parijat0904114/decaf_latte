@@ -8,6 +8,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | # | Title | Solution | Brute Force Complexity | Optimized Complexity|
 | --- | --- | --- | --- | --- |
 | 1 | Two Sum | [Solution](./GRIND_75/leetcode_1_two_sum.py) | T: _O(n²)_ <br> S: _O(1)_ | T: _O(n)_ <br> S: _O(n)_ |
+| 20 | Valid Parentheses | [Solution](./GRIND_75/leetcode_20_valid_parentheses.py) | | T: _O(len(s)_ <br> S: _O(len(s)_ |
 
 
 ## Analysis
