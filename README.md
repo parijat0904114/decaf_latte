@@ -10,6 +10,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 1 | Two Sum | [Solution](./GRIND_75/leetcode_1_two_sum.py) | T: _O(n²)_ <br> S: _O(1)_ | T: _O(n)_ <br> S: _O(n)_ |
 | 20 | Valid Parentheses | [Solution](./GRIND_75/leetcode_20_valid_parentheses.py) | | T: _O(len(s)_ <br> S: _O(len(s)_ |
 | 21 | Merge Two Sorted Lists | [Solution](./GRIND_75/leetcode_21_merge_two_sorted_lists.py) | | m = len(list1), n = len(list2) <br> T: _O(m+n)_ <br> S: _O(1)_ (additional nodes just point to list1 or list2)|
+| 121 | Best Time to Buy and Sell Stock | [Solution](./GRIND_75/leetcode_121_best_time_to_buy_and_sell_stock.py) | T: _O(n²)_ <br> S: _O(1)_ | T: _O(n)_ <br> S: _O(1)_ |
 
 
 ## Analysis
