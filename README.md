@@ -12,7 +12,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 21 | Merge Two Sorted Lists | [Solution](./GRIND_75/leetcode_21_merge_two_sorted_lists.py) | | m = len(list1), n = len(list2) <br> T: _O(m+n)_ <br> S: _O(1)_ (additional nodes just point to list1 or list2)|
 | 121 | Best Time to Buy and Sell Stock | [Solution](./GRIND_75/leetcode_121_best_time_to_buy_and_sell_stock.py) | T: _O(n²)_ <br> S: _O(1)_ | T: _O(n)_ <br> S: _O(1)_ |
 | 125 | Valid Palindrome | [Solution](./GRIND_75/leetcode_125_valid_palindrome.py) | T: _O(n)_ <br> S: _O(n)_ | T: _O(n)_ <br> S: _O(1)_ |
-| 226 | Invert Binary Tree | [Solution](./GRIND_75/leetcode_226_invert_binary_tree.py) | | DFS with Recursion <br> T: _O(n) <br> S: _O(n)_ <br> DFS with Stack <br> T: _O(n)_ S: _O(n)_ <br> BFS <br> T: _O(n)_ <br> S: _O(n)_ |
+| 226 | Invert Binary Tree | [Solution](./GRIND_75/leetcode_226_invert_binary_tree.py) | | DFS with Recursion <br> T: _O(n)_ <br> S: _O(n)_ <br><br> DFS with Stack <br> T: _O(n)_ S: _O(n)_ <br><br> BFS <br> T: _O(n)_ <br> S: _O(n)_ |
 
 
 ## Analysis
