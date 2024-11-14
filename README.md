@@ -21,6 +21,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 141 | Linked List Cycle | [Solution](./GRIND_75/leetcode_141_linked_list_cycle.py) | T: _O(n)_ <br> S: _O(n)_ | T: _O(n)_ <br> S: _O(1)_ |
 | 232 | Implement Queue using Stacks | [Solution](./GRIND_75/leetcode_232_implement_queue_using_stacks.py) | | T: <br> push: _O(1)_ <br> pop: Amortized _O(1)_ <br> peek: Amortized _O(1)_ <br> empty: _O(1)_ <br> S: _O(n)_ |
 | 278 | First Bad Version | [Solution](./GRIND_75/leetcode_278_first_bad_version.py) | | T: _O(logN)_ <br> S: _O(1)_ |
+| 383 | Ransom Note | [Solution](./GRIND_75/leetcode_383_ransom_note.py) | | m = len(ransomNote) <br> n = len(magazine) <br> T: _O(max(m,n))_ <br> S: _O(1)_ |
 
 
 ## Analysis
