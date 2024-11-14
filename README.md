@@ -24,6 +24,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 383 | Ransom Note | [Solution](./GRIND_75/leetcode_383_ransom_note.py) | | m = len(ransomNote) <br> n = len(magazine) <br> T: _O(max(m,n))_ <br> S: _O(1)_ |
 | 70 | Climbing Stairs | [Solution](./GRIND_75/leetcode_70_climbing_stairs.py) | | T: _O(n)_ <br> S: _O(1)_ |
 | 409 | Longest Palindrome | [Solution](./GRIND_75/leetcode_409_longest_palindrome.py) | | T: _O(n)_ <br> S: _O(1)_ |
+| 206 | Reverse Linked List | [Solution](./GRIND_75/leetcode_206_reverse_linked_list.py) | T: _O(n)_ <br> S: _O(n)_ | T: _O(n)_ <br> S: _O(1)_ |
 
 ## Analysis
 
