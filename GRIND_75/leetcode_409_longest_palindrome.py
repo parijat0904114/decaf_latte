@@ -8,7 +8,7 @@ class Solution(object):
 
         for st in s:
             if 'A' <= st <= 'Z':
-                counter[ord(st) - 'A'] += 1
+                counter[ord(st) - ord('A')] += 1
             else:
                 counter[ord(st) - 71] += 1
 
