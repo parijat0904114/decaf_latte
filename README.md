@@ -26,6 +26,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 409 | Longest Palindrome | [Solution](./GRIND_75/leetcode_409_longest_palindrome.py) | | T: _O(n)_ <br> S: _O(1)_ |
 | 206 | Reverse Linked List | [Solution](./GRIND_75/leetcode_206_reverse_linked_list.py) | T: _O(n)_ <br> S: _O(n)_ | T: _O(n)_ <br> S: _O(1)_ |
 | 169 | Majority Element | [Solution](./GRIND_75/leetcode_169_majority_element.py) | T: _O(n)_ <br> S: _O(n)_ | Voting Algorithm Utilized <br> T: _O(n)_ <br> S: _O(1)_ |
+| 67 | Add Binary | [Solution](./GRIND_75/leetcode_67_add_binary.py) | | m = len(a), n = len(b) <br> T: _O(max(m,n))_ <br> S: _O(max(m,n))_ |
 
 ## Analysis
 
