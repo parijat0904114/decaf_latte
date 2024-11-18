@@ -29,6 +29,8 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 67 | Add Binary | [Solution](./GRIND_75/leetcode_67_add_binary.py) | | m = len(a), n = len(b) <br> T: _O(max(m,n))_ <br> S: _O(max(m,n))_ |
 | 543 | Diameter of Binary Tree | [Solution](./GRIND_75/leetcode_543_diameter_of_a_binary_tree.py) | | T: _O(n)_ <br> S: _O(n)_ |
 | 876 | Middle of the Linked List | [Solution](./GRIND_75/leetcode_876_middle_of_the_linked_list.py) | | T: _O(n)_ <br> S: _O(1)_ |
+| 104 | Maximum Depth of Binary Tree | [Solution](./GRIND_75/leetcode_104_maximum_depth_of_binary_tree.py) | | T: _O(n)_ <br> S: _O(n)_ |
+
 ## Analysis
 
 ### Time Complexity
