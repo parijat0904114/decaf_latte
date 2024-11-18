@@ -31,7 +31,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 876 | Middle of the Linked List | [Solution](./GRIND_75/leetcode_876_middle_of_the_linked_list.py) | | T: _O(n)_ <br> S: _O(1)_ |
 | 104 | Maximum Depth of Binary Tree | [Solution](./GRIND_75/leetcode_104_maximum_depth_of_binary_tree.py) | | T: _O(n)_ <br> S: _O(n)_ |
 | 217 | Contains Duplicate | [Solution](./GRIND_75/leetcode_217_contains_duplicate.py) | T: _O(nlogn)_ <br> S: _O(1) <br>
-By using best sorting| T: _O(n)_ <br> S: _O(n)_ |
+By using best sorting <br> T: _O(n)_ <br> S: _O(n)_ |
 
 ## Analysis
 
