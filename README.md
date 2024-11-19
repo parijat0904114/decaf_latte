@@ -32,6 +32,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 104 | Maximum Depth of Binary Tree | [Solution](./GRIND_75/leetcode_104_maximum_depth_of_binary_tree.py) | | T: _O(n)_ <br> S: _O(n)_ |
 | 217 | Contains Duplicate | [Solution](./GRIND_75/leetcode_217_contains_duplicate.py) | With Optimized Sorting Algorithm <br> T: _O(nlogn)_ <br> S: _O(1) <br> | T: _O(n)_ <br> S: _O(n)_ |
 | 252 (from neetcode)| Meeting Rooms | [Solution](./GRIND_75/leetcode_252_meeting_rooms.py) | | T: _O(nlogn)_ <br> S: _O(1)_ <br> with best sorting algo |
+| 13 | Roman to Integer | [Solution](./GRIND_75/leetcode_13_roman_to_integer.py) | | T: _O(n)_ <br> S: _O(1)_ | 
 
 ## Analysis
 
