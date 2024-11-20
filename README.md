@@ -34,8 +34,8 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 252 (from neetcode)| Meeting Rooms | [Solution](./GRIND_75/leetcode_252_meeting_rooms.py) | | T: _O(nlogn)_ <br> S: _O(1)_ <br> with best sorting algo |
 | 13 | Roman to Integer | [Solution](./GRIND_75/leetcode_13_roman_to_integer.py) | | T: _O(n)_ <br> S: _O(1)_ | 
 | 844 | Backspace String Compare | [Solution](./GRIND_75/leetcode_844_backspace_string_compare.py) | T: _O(n)_ <br> S: _O(n)_ | # TBD |
-| 53 | Maximum Subarray | [Solution](./GRIND_75/leetcode_53)| T: _O(n²)_ <br> S: _O(1)_ | T: _O(n)_ <br> S: _O(1)_ |
-
+| 53 | Maximum Subarray | [Solution](./GRIND_75/leetcode_53_maximum_subarray.py)| T: _O(n²)_ <br> S: _O(1)_ | T: _O(n)_ <br> S: _O(1)_ |
+| 57 | Insert Interval | [Solution](./GRIND_75/leetcode_57_insert_interval.py) | | T: _O(n)_ <br> S: _O(1)_ |
 ## Analysis
 
 ### Time Complexity
