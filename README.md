@@ -37,7 +37,8 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 53 | Maximum Subarray | [Solution](./GRIND_75/leetcode_53_maximum_subarray.py)| T: _O(n²)_ <br> S: _O(1)_ | T: _O(n)_ <br> S: _O(1)_ |
 | 57 | Insert Interval | [Solution](./GRIND_75/leetcode_57_insert_interval.py) | | T: _O(n)_ <br> S: _O(1)_ |
 | | | | |
-| 973 | K Closest Points to Origin | [Solution](./GRIND_75/leetcode_973_k_closest_points_to_origin.py) | | T: _O(nlogn)_ <br> S: _O(1)_ |
+| 973 | K Closest Points to Origin | [Solution](./GRIND_75/leetcode_973_k_closest_points_to_origin.py) | T: _O(nlogn)_ <br> S: _O(1)_ | Min Heap Solution <br> T: _O(n + klogn)_ <br> S: _O(n)_ <br><br> Max Heap Solution <br> T: _O(nlogk)_ <br> S: _O(k)_ |
+
 ## Analysis
 
 ### Time Complexity
