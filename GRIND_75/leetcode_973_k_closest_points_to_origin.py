@@ -49,7 +49,7 @@ class Solution(object):
             k -= 1
         return result
 
-# Optimal Solution
+# Third Solution (Lambda Sorting)
 # Lambda Sorting along with Slicing
 
 
