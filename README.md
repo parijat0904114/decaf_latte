@@ -38,7 +38,10 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 57 | Insert Interval | [Solution](./GRIND_75/leetcode_57_insert_interval.py) | | T: _O(n)_ <br> S: _O(1)_ |
 | 542 | 01 Matrix | [Solution](./GRIND_75/leetcode_542_01_matrix.py) | | T: _O(mxn)_ <br> S: _O(mxn)_ <br> queue could hold upto _mxn_ entries. |
 | 973 | K Closest Points to Origin | [Solution](./GRIND_75/leetcode_973_k_closest_points_to_origin.py) | T: _O(nlogn)_ <br> S: _O(1)_ | Min Heap Solution <br> T: _O(n + klogn)_ <br> S: _O(n)_ <br><br> Max Heap Solution <br> T: _O(nlogk)_ <br> S: _O(k)_ |
-
+| 3 | Longest Substring Without Repeating Characters | [Solution](./GRIND_75/leetcode_3_longest_substring_without_repeating_characters.py) | T: _O(n*m)_ worst case _O(n²)_ <br> S: _O(m)_ <br>
+n = length of the string <br>
+m = length of the longest substring without repeating characters
+| T: _O(n)_ <br> S: _O(m)_ |
 ## Analysis
 
 ### Time Complexity
