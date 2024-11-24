@@ -35,12 +35,13 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 13 | Roman to Integer | [Solution](./GRIND_75/leetcode_13_roman_to_integer.py) | | T: _O(n)_ <br> S: _O(1)_ | 
 | 844 | Backspace String Compare | [Solution](./GRIND_75/leetcode_844_backspace_string_compare.py) | T: _O(n)_ <br> S: _O(n)_ | # TBD |
 | 53 | Maximum Subarray | [Solution](./GRIND_75/leetcode_53_maximum_subarray.py)| T: _O(n²)_ <br> S: _O(1)_ | T: _O(n)_ <br> S: _O(1)_ |
-| 57 | Insert Interval | [Solution](./GRIND_75/leetcode_57_insert_interval.py) | | T: _O(n)_ <br> S: _O(1)_ |
+| 57 | Insert Interval | [Solution](./GRIND_75/leetcode_57_insert_interval.py) | | T: _O(n)_ <br> S: _O(n)_ |
 | 542 | 01 Matrix | [Solution](./GRIND_75/leetcode_542_01_matrix.py) | | T: _O(mxn)_ <br> S: _O(mxn)_ <br> queue could hold upto _mxn_ entries. |
 | 973 | K Closest Points to Origin | [Solution](./GRIND_75/leetcode_973_k_closest_points_to_origin.py) | T: _O(nlogn)_ <br> S: _O(1)_ | Min Heap Solution <br> T: _O(n + klogn)_ <br> S: _O(n)_ <br><br> Max Heap Solution <br> T: _O(nlogk)_ <br> S: _O(k)_ |
 | 3 | Longest Substring Without Repeating Characters | [Solution](./GRIND_75/leetcode_3_longest_substring_without_repeating_characters.py) | T: _O(n*m)_ worst case _O(n²)_ <br> S: _O(m)_ <br> n = length of the string <br> m = length of the longest substring without repeating characters | T: _O(n)_ <br> S: _O(m)_ |
 | 102 | Binary Tree Level Order Traversal | [Solution](./GRIND_75/leetcode_102_binary_tree_level_order_traversal.py) | | T: _O(n)_ <br> S: _O(n)_ |
-| 15 | 3Sum | [Solution](./GRIND_75/leetcode_15_3sum.py) | | T: _O(n²)_ <br> The problem asks us to return all triplets. Hence, we are not using any auxiliary space. <br> S: _O(1)_ <br> |
+| 15 | 3Sum | [Solution](./GRIND_75/leetcode_15_3sum.py) | | T: _O(n²)_ <br> The problem asks us to return all triplets. Hence, we are not using any auxiliary space to solve the problem. <br> S: _O(1)_ <br> |
+
 ## Analysis
 
 ### Time Complexity
