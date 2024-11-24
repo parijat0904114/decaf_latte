@@ -40,7 +40,7 @@ This repository contains my solutions to the GRIND 75 problems. The aim of this 
 | 973 | K Closest Points to Origin | [Solution](./GRIND_75/leetcode_973_k_closest_points_to_origin.py) | T: _O(nlogn)_ <br> S: _O(1)_ | Min Heap Solution <br> T: _O(n + klogn)_ <br> S: _O(n)_ <br><br> Max Heap Solution <br> T: _O(nlogk)_ <br> S: _O(k)_ |
 | 3 | Longest Substring Without Repeating Characters | [Solution](./GRIND_75/leetcode_3_longest_substring_without_repeating_characters.py) | T: _O(n*m)_ worst case _O(n²)_ <br> S: _O(m)_ <br> n = length of the string <br> m = length of the longest substring without repeating characters | T: _O(n)_ <br> S: _O(m)_ |
 | 102 | Binary Tree Level Order Traversal | [Solution](./GRIND_75/leetcode_102_binary_tree_level_order_traversal.py) | | T: _O(n)_ <br> S: _O(n)_ |
-| 15 | 3Sum | [Solution](./GRIND_75/leetcode_15_3sum.py) | | T: _O(n²)_ <br> The problem asks us to return all triplets. If we consider auxiliary space, we don't use any extra space out of the context, S: _O(1)_ <br> If we consider total space, then <br> S: _O(k)_ <br> k = length of the triplets |
+| 15 | 3Sum | [Solution](./GRIND_75/leetcode_15_3sum.py) | | T: _O(n²)_ <br> The problem asks us to return all triplets. If we consider auxiliary space, we don't use any extra space out of the context, <br> S: _O(1)_ <br> If we consider total space, then <br> S: _O(k)_ <br> k = length of the triplets |
 ## Analysis
 
 ### Time Complexity
