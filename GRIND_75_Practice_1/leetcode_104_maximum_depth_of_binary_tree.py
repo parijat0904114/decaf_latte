@@ -11,57 +11,57 @@ class TreeNode(object):
         self.right = right
 
 
-# class Solution(object):
-#     def maxDepth(self, root):
-#         """
-#         :type root: TreeNode
-#         :rtype: int
-#         """
-#         if not root:
-#             return 0
-#         return max(1 + self.maxDepth(root.left),
-#                    1 + self.maxDepth(root.right))
+class Solution(object):
+    def maxDepth(self, root):
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
+        if not root:
+            return 0
+        return max(1 + self.maxDepth(root.left),
+                   1 + self.maxDepth(root.right))
 
 
-# class Solution(object):
-#     def maxDepth(self, root):
-#         if not root:
-#             return 0
-#         left_height = self.maxDepth(root.left)
-#         right_height = self.maxDepth(root.right)
-#         return 1 + max(left_height, right_height)
+class Solution(object):
+    def maxDepth(self, root):
+        if not root:
+            return 0
+        left_height = self.maxDepth(root.left)
+        right_height = self.maxDepth(root.right)
+        return 1 + max(left_height, right_height)
 
 # Iterative DFS
 
 
-# class Solution(object):
-#     def maxDepth(self, root):
-#         stack = [(root, 1)]
-#         depth = 0
+class Solution(object):
+    def maxDepth(self, root):
+        stack = [(root, 1)]
+        depth = 0
 
-#         while stack:
-#             node, node_depth = stack.pop()
-#             if node:
-#                 depth = max(depth, node_depth)
-#                 stack.append((node.left, node_depth + 1))
-#                 stack.append((node.right, node_depth + 1))
-#         return depth
+        while stack:
+            node, node_depth = stack.pop()
+            if node:
+                depth = max(depth, node_depth)
+                stack.append((node.left, node_depth + 1))
+                stack.append((node.right, node_depth + 1))
+        return depth
 
 # Breadth First Search
 
 
-# class Solution(object):
-#     def maxDepth(self, root):
-#         queue = deque([(root, 1)])
-#         depth = 0
+class Solution(object):
+    def maxDepth(self, root):
+        queue = deque([(root, 1)])
+        depth = 0
 
-#         while queue:
-#             node, node_depth = queue.popleft()
-#             if node:
-#                 depth = max(depth, node_depth)
-#                 queue.append((node.left, node_depth + 1))
-#                 queue.append((node.right, node_depth + 1))
-#         return depth
+        while queue:
+            node, node_depth = queue.popleft()
+            if node:
+                depth = max(depth, node_depth)
+                queue.append((node.left, node_depth + 1))
+                queue.append((node.right, node_depth + 1))
+        return depth
 
 
 t1 = TreeNode(3)
