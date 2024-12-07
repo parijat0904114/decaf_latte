@@ -1,27 +1,16 @@
 class Solution(object):
     def permute(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[List[int]]
-        """
-        def backtrack(path, used):
-            if len(path) == len(nums):
-                res.append(path[:])
-                return
-            for i in range(len(nums)):
-                if used[i]:
-                    continue
-                path.append(nums[i])
-                used[i] = True
-
-                backtrack(path, used)
-
-                path.pop()
-                used[i] = False
+        def backtrack(start):
+            if start == len(nums):
+                res.append(nums[:])
+            else:
+                for i in range(start, len(nums)):
+                    nums[start], nums[i] = nums[i], nums[start]
+                    backtrack(start + 1)
+                    nums[start], nums[i] = nums[i], nums[start]
 
         res = []
-        used = [False] * len(nums)
-        backtrack([], used)
+        backtrack(0)
         return res
 
 
