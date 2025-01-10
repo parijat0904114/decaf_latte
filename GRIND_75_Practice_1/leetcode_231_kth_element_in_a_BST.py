@@ -30,6 +30,25 @@ class TreeNode(object):
 # Inorder Traversal
 
 
+# class Solution(object):
+#     def kthSmallest(self, root, k):
+#         """
+#         :type root: Optional[TreeNode]
+#         :type k: int
+#         :rtype: int
+#         """
+#         lst = []
+
+#         def dfs(node):
+#             if not node:
+#                 return
+#             dfs(node.left)
+#             lst.append(node.val)
+#             dfs(node.right)
+
+#         dfs(root)
+#         return lst[k-1]
+
 class Solution(object):
     def kthSmallest(self, root, k):
         """
@@ -37,17 +56,17 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        lst = []
-
-        def dfs(node):
-            if not node:
-                return
-            dfs(node.left)
-            lst.append(node.val)
-            dfs(node.right)
-
-        dfs(root)
-        return lst[k-1]
+        stack = []
+        curr = root
+        while True:
+            while curr:
+                stack.append(curr)
+                curr = curr.left
+            curr = stack.pop()
+            k -= 1
+            if k == 0:
+                return curr.val
+            curr = curr.right
 
 
 n1 = TreeNode(1)
